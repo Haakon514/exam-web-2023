@@ -1,7 +1,4 @@
 {
-  "engines": {
-    "node": "14.x"
-  },
   "name": "exam-web-2023",
   "version": "1.0.0",
   "main": "index.js",
