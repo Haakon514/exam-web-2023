@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
-import { LoginContext } from "../login/loginContext";
+import { LoginContext } from "../loginComponents/LoginContext";
 import { Link, Route, Routes } from "react-router-dom";
-import { LoginNavLink } from "../login/loginNavLink";
-import { ProfilePage } from "../profile/profilePage";
-import { LoginCallback } from "../login/loginCallback";
-import { LoginWithOpenidButton } from "../login/loginWithOpenidButton";
+import { LoginNavLink } from "../loginComponents/LoginNavlink";
+import { ProfilePage } from "../profile/ProfilePage";
+import { LoginCallback } from "../loginComponents/LoginCallback";
+import { LoginWithOpenidButton } from "../loginComponents/LoginWithOpenIDConnectButton";
 import { ChatRoom } from "../chatComponents/ChatRoom";
 
 const GOOGLE_CLIENT_ID =

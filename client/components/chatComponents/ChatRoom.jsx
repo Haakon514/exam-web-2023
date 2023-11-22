@@ -1,5 +1,5 @@
 import { useEffect, useState, useContext } from "react";
-import { LoginContext } from "../login/loginContext";
+import { LoginContext } from "../loginComponents/LoginContext";
 import { DeleteChat } from "./DeleteChat";
 export function ChatRoom() {
     const [messages, setMessages] = useState([]);

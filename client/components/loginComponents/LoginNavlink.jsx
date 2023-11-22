@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import React, { useContext } from "react";
-import { LoginContext } from "./loginContext";
+import { LoginContext } from "./LoginContext";
 
 export function LoginNavLink() {
     const { username } = useContext(LoginContext);

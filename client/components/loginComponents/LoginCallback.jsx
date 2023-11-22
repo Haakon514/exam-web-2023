@@ -1,6 +1,6 @@
 import { useContext, useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { LoginContext } from "./loginContext";
+import { LoginContext } from "./LoginContext";
 
 export function LoginCallback() {
     const [debug, setDebug] = useState();

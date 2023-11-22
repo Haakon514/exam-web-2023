@@ -1,5 +1,5 @@
 import { useContext, useEffect, useState } from "react";
-import { LoginContext } from "./loginContext";
+import { LoginContext } from "./LoginContext";
 
 const DISCOVERY_URL =
     "https://accounts.google.com/.well-known/openid-configuration";

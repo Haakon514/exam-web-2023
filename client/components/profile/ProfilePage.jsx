@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { LoginContext } from "../login/loginContext";
+import { LoginContext } from "../loginComponents/LoginContext";
 import { useNavigate } from "react-router-dom";
 
 export function ProfilePage() {
