@@ -10,7 +10,7 @@ import { ChatRoom } from "../chatComponents/ChatRoom";
 const GOOGLE_CLIENT_ID =
     "527176474036-s706db9bute4p0esgd3bftq9dislkrmr.apps.googleusercontent.com";
 
-export function Application() {
+export function App() {
     const [username, setUsername] = useState();
     const [user, setUser] = useState();
 
