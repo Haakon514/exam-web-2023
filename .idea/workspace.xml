@@ -42,6 +42,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\haako\Downloads\exam-web-2023\server" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.dev (1)">
     <configuration name="dev (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/server/package.json" />
@@ -63,10 +68,21 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="install:client" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="install:client" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="npm.dev (1)" />
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.install:client" />
       </list>
     </recent_temporary>
   </component>
@@ -78,7 +94,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1700681744892</updated>
-      <workItem from="1700681745838" duration="6436000" />
+      <workItem from="1700681745838" duration="12286000" />
     </task>
     <servers />
   </component>
