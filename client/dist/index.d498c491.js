@@ -34184,27 +34184,22 @@ function ChatRoom() {
                     JSON.parse(event.data)
                 ]);
         };
-        webSocket.onerror = (error)=>{
-            console.log(error);
-        };
         setWebSocket(webSocket);
     }, []);
     async function handleSubmit(e) {
         e.preventDefault();
-        if (webSocket?.readyState === WebSocket.OPEN) {
-            await fetch("http://localhost:3000/api/chats", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json"
-                },
-                body: JSON.stringify({
-                    newMessage,
-                    username
-                })
-            });
-            webSocket.send(newMessage);
-            setNewMessage("");
-        }
+        await fetch("http://localhost:3000/api/chats", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                newMessage,
+                username
+            })
+        });
+        webSocket.send(newMessage);
+        setNewMessage("");
     }
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
@@ -34214,7 +34209,7 @@ function ChatRoom() {
                         children: "Chat application"
                     }, void 0, false, {
                         fileName: "components/chatComponents/ChatRoom.jsx",
-                        lineNumber: 59,
+                        lineNumber: 53,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34224,13 +34219,13 @@ function ChatRoom() {
                         ]
                     }, void 0, true, {
                         fileName: "components/chatComponents/ChatRoom.jsx",
-                        lineNumber: 60,
+                        lineNumber: 54,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "components/chatComponents/ChatRoom.jsx",
-                lineNumber: 58,
+                lineNumber: 52,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("main", {
@@ -34240,7 +34235,7 @@ function ChatRoom() {
                                 children: message.username
                             }, void 0, false, {
                                 fileName: "components/chatComponents/ChatRoom.jsx",
-                                lineNumber: 66,
+                                lineNumber: 60,
                                 columnNumber: 25
                             }, this),
                             " : ",
@@ -34249,18 +34244,18 @@ function ChatRoom() {
                                 props: message.id
                             }, void 0, false, {
                                 fileName: "components/chatComponents/ChatRoom.jsx",
-                                lineNumber: 67,
+                                lineNumber: 61,
                                 columnNumber: 25
                             }, this)
                         ]
                     }, index, true, {
                         fileName: "components/chatComponents/ChatRoom.jsx",
-                        lineNumber: 65,
+                        lineNumber: 59,
                         columnNumber: 21
                     }, this))
             }, void 0, false, {
                 fileName: "components/chatComponents/ChatRoom.jsx",
-                lineNumber: 63,
+                lineNumber: 57,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("footer", {
@@ -34274,25 +34269,25 @@ function ChatRoom() {
                             onChange: (e)=>setNewMessage(e.target.value)
                         }, void 0, false, {
                             fileName: "components/chatComponents/ChatRoom.jsx",
-                            lineNumber: 73,
+                            lineNumber: 67,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
                             children: "Send"
                         }, void 0, false, {
                             fileName: "components/chatComponents/ChatRoom.jsx",
-                            lineNumber: 79,
+                            lineNumber: 73,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "components/chatComponents/ChatRoom.jsx",
-                    lineNumber: 72,
+                    lineNumber: 66,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "components/chatComponents/ChatRoom.jsx",
-                lineNumber: 71,
+                lineNumber: 65,
                 columnNumber: 13
             }, this)
         ]

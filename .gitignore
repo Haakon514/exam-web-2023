@@ -2,4 +2,3 @@ server/.env
 node_modules
 package-lock.json
 .idea
-exam-web-2023.iml
