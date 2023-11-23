@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+}
+
+#root {
+  background-color: #9370db;
+  flex-direction: column;
+  height: 100vh;
+  display: flex;
+}
+
+a {
+  color: #000;
+  background-color: #9370db;
+  border: 1px solid #000;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+main {
+  background-color: #d3d3d3;
+  border: 2px solid #000;
+  flex: 1;
+  min-width: 80%;
+  margin: .5em auto;
+  padding: 1em;
+}
+
+main header {
+  text-align: left;
+}
+
+header {
+  text-align: center;
+  padding-inline: 2px;
+}
+
+footer form {
+  display: flex;
+}
+
+footer input {
+  flex: 1;
+}
+
+footer {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+nav {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  column-gap: 1px;
+  padding-inline: 2px;
+  display: flex;
+}
+
+.chat {
+  margin: 3px;
+  padding: 2px;
+}
+
+/*# sourceMappingURL=index.9e4c6fd2.css.map */
