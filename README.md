@@ -1,5 +1,7 @@
 heroku_link = https://apidesign-exam-2023-993399bb202b.herokuapp.com/
 
+github_link = https://github.com/Haakon514/exam-web-2023.git
+
 OM APPLIKLASJONEN:
 
 I starten av oppgaven så var jeg fokusert på å forstå hele oppgaven før jeg begynte å kode. Jeg hadde skrevet kode-
