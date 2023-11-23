@@ -21,7 +21,7 @@ app.use(cookieParser(COOKIE_SECRET));
 const DISCOVERY_URL =
     "https://accounts.google.com/.well-known/openid-configuration";
 
-const Mongo_URL = `mongodb+srv://haakon514:${process.env.MongoDB_Password}@cluster0.2zao8uk.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp`; //husk .env fil med passord
+const Mongo_URL = `mongodb+srv://haakon514:tU6MTUnUzOB55zcR@cluster0.2zao8uk.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp`; //husk .env fil med passord
 
 const client = new MongoClient(Mongo_URL);
 
