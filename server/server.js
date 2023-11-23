@@ -73,8 +73,7 @@ const wsServer = new WebSocketServer({ noServer: true });
 const sockets = [];
 
 server.on("upgrade", (req, socket, head) => {
-    const COOKIES = cookie.parse(req.headers.cookie);
-    const signedCookies = cookieParser.signedCookies(COOKIES, COOKIE_SECRET);
+    const signedCookies = cookieParser.signedCookies(COOKIE_SECRET);
     const { username } = signedCookies;
     wsServer.handleUpgrade(req, socket, head, (socket) => {
         sockets.push(socket);
