@@ -28,17 +28,12 @@ export function ChatRoom() {
             setMessages((current) => [...current, JSON.parse(event.data)]);
         };
 
-        webSocket.onerror = (error) => {
-            console.log(error);
-        };
-
         setWebSocket(webSocket);
     }, []);
 
     async function handleSubmit(e) {
         e.preventDefault();
 
-        if (webSocket?.readyState === WebSocket.OPEN) {
             await fetch("http://localhost:3000/api/chats", {
                 method: "POST",
                 headers: {
@@ -51,7 +46,6 @@ export function ChatRoom() {
 
             setNewMessage("");
         }
-    }
 
     return (
         <>

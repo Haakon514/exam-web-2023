@@ -20,10 +20,4 @@ export function chatEndPoints(db) {
         await db.collection("chat-database").deleteOne({ id: _id });
         res.sendStatus(204);
     });
-
-    chatsApi.put("", async (req, res) => {
-        const { _id } = req.body;
-        await db.collection("chat-database").update({ _id });
-        res.sendStatus(204);
-    });
 }
