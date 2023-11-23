@@ -7,12 +7,11 @@ import * as path from "path";
 import dotenv from "dotenv";
 import { MongoClient } from "mongodb";
 import { WebSocketServer } from "ws";
-import cookie from "cookie";
 
 dotenv.config();
 const app = express();
 
-const COOKIE_SECRET = process.env.Cookie_Secret; //husk .env fil med cookie secret
+const COOKIE_SECRET = "jbfuwcbnwbccwer"; //husk .env fil med cookie secret
 
 app.use(bodyParser.json());
 app.use(express.json());
