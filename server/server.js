@@ -65,8 +65,6 @@ app.use((req, res, next) => {
     }
 });
 
-app.listen(process.env.Port || 3000);
-
 const server = app.listen(process.env.Port || 3000);
 
 const wsServer = new WebSocketServer({ noServer: true });
