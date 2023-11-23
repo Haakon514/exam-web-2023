@@ -1,9 +1,6 @@
 {
   "name": "exam-web-2023",
   "version": "1.0.0",
-  "engines": {
-    "node": "12.11.1"
-  },
   "main": "index.js",
   "devDependencies": {
     "prettier": "^3.1.0"
