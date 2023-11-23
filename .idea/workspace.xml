@@ -6,6 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="cf5e1a45-ecba-46c5-8526-7e6fff6801eb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.parcel-cache/1c922525ae71b6ef-0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.parcel-cache/9d58277e08de324d.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.parcel-cache/a79459a38f4a8010-0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.parcel-cache/d363353b3ed8e7ed-0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.parcel-cache/data.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.parcel-cache/f09256245763e2b8-0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.parcel-cache/lock.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +56,7 @@
       <recent name="C:\Users\haako\Downloads\exam-web-2023\server" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="npm.start">
     <configuration name="dev (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/server/package.json" />
       <command value="run" />
@@ -78,8 +87,19 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/server/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.dev" />
         <item itemvalue="npm.dev (1)" />
         <item itemvalue="npm.install:client" />
@@ -94,7 +114,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1700681744892</updated>
-      <workItem from="1700681745838" duration="17169000" />
+      <workItem from="1700681745838" duration="21327000" />
     </task>
     <servers />
   </component>

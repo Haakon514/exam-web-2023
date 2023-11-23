@@ -32,7 +32,7 @@
 86C:\Users\haako\Downloads\exam-web-2023\client\node_modules\@parcel\fs\src\OverlayFS.js133451820497391566 0
 140C:\Users\haako\Downloads\exam-web-2023\client\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\ClassSelector.js133451820498268885 0
 68C:\Users\haako\Downloads\exam-web-2023\client\node_modules\@mischnic133451820477866743 1
-50C:\Users\haako\Downloads\exam-web-2023\client\dist133451828991172731 1
+50C:\Users\haako\Downloads\exam-web-2023\client\dist133451872992963200 1
 92C:\Users\haako\Downloads\exam-web-2023\client\node_modules\css-select\lib\esm\general.js.map133451820501120002 0
 129C:\Users\haako\Downloads\exam-web-2023\client\node_modules\@parcel\optimizer-svgo\node_modules\css-select\lib\attributes.d.ts.map133451820498377588 0
 87C:\Users\haako\Downloads\exam-web-2023\client\node_modules\semver\functions\rcompare.js133451820500551739 0
@@ -708,7 +708,7 @@
 71C:\Users\haako\Downloads\exam-web-2023\client\node_modules\lmdb\read.js133451820504864911 0
 107C:\Users\haako\Downloads\exam-web-2023\client\node_modules\caniuse-lite\data\features\font-unicode-range.js133451820508194124 0
 93C:\Users\haako\Downloads\exam-web-2023\client\node_modules\utility-types\dist\mapped-types.js133451820495569720 0
-72C:\Users\haako\Downloads\exam-web-2023\client\dist\index.d498c491.js.map133451828991167686 0
+72C:\Users\haako\Downloads\exam-web-2023\client\dist\index.d498c491.js.map133451872992963200 0
 130C:\Users\haako\Downloads\exam-web-2023\client\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\cleanupListOfValues.js133451820497712055 0
 96C:\Users\haako\Downloads\exam-web-2023\client\node_modules\utility-types\dist\utility-types.d.ts133451820498956439 0
 121C:\Users\haako\Downloads\exam-web-2023\client\node_modules\posthtml\node_modules\posthtml-parser\dist\location-tracker.js133451820495175840 0
@@ -3631,7 +3631,7 @@
 104C:\Users\haako\Downloads\exam-web-2023\client\node_modules\caniuse-lite\data\features\async-clipboard.js133451820500619902 0
 115C:\Users\haako\Downloads\exam-web-2023\client\node_modules\css-select\node_modules\entities\lib\esm\decode.d.ts.map133451820500441315 0
 109C:\Users\haako\Downloads\exam-web-2023\client\node_modules\css-select\node_modules\entities\lib\esm\decode.js133451820497391566 0
-69C:\Users\haako\Downloads\exam-web-2023\client\dist\index.9e4c6fd2.css133451828990084301 0
+69C:\Users\haako\Downloads\exam-web-2023\client\dist\index.9e4c6fd2.css133451872991849402 0
 113C:\Users\haako\Downloads\exam-web-2023\client\node_modules\css-select\node_modules\entities\lib\esm\decode.js.map133451820500593567 0
 125C:\Users\haako\Downloads\exam-web-2023\client\node_modules\css-select\node_modules\entities\lib\esm\decode_codepoint.d.ts.map133451820499429110 0
 119C:\Users\haako\Downloads\exam-web-2023\client\node_modules\css-select\node_modules\entities\lib\esm\decode_codepoint.js133451820494855565 0
@@ -4008,7 +4008,7 @@
 79C:\Users\haako\Downloads\exam-web-2023\client\node_modules\@swc\types\README.md133451820496197095 0
 106C:\Users\haako\Downloads\exam-web-2023\client\node_modules\caniuse-lite\data\features\css-width-stretch.js133451820506700809 0
 90C:\Users\haako\Downloads\exam-web-2023\client\node_modules\caniuse-lite\data\regions\GH.js133451820508448585 0
-68C:\Users\haako\Downloads\exam-web-2023\client\dist\index.d498c491.js133451828991033309 0
+68C:\Users\haako\Downloads\exam-web-2023\client\dist\index.d498c491.js133451872992904800 0
 96C:\Users\haako\Downloads\exam-web-2023\client\node_modules\caniuse-lite\data\features\svg-img.js133451820511982277 0
 88C:\Users\haako\Downloads\exam-web-2023\client\node_modules\@parcel\transformer-babel\src133451820498956439 1
 90C:\Users\haako\Downloads\exam-web-2023\client\node_modules\caniuse-lite\data\regions\GI.js133451820508459422 0
@@ -6041,8 +6041,8 @@
 68C:\Users\haako\Downloads\exam-web-2023\client\node_modules\.bin\svgo133451820513458953 0
 90C:\Users\haako\Downloads\exam-web-2023\client\node_modules\.bin\update-browserslist-db.cmd133451820513491063 0
 90C:\Users\haako\Downloads\exam-web-2023\client\node_modules\.bin\update-browserslist-db.ps1133451820513491063 0
-73C:\Users\haako\Downloads\exam-web-2023\client\dist\index.9e4c6fd2.css.map133451828990197557 0
-61C:\Users\haako\Downloads\exam-web-2023\client\dist\index.html133451828990106184 0
+73C:\Users\haako\Downloads\exam-web-2023\client\dist\index.9e4c6fd2.css.map133451872991952499 0
+61C:\Users\haako\Downloads\exam-web-2023\client\dist\index.html133451872991849402 0
 64C:\Users\haako\Downloads\exam-web-2023\client\components\profile133451575445893400 1
 105C:\Users\haako\Downloads\exam-web-2023\client\components\loginComponents\LoginWithOpenIDConnectButton.jsx133451575446082943 0
 86C:\Users\haako\Downloads\exam-web-2023\client\components\chatComponents\DeleteChat.jsx133451564515820269 0
